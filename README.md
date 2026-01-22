@@ -42,3 +42,13 @@ The core idea of the project is to **embed physical laws directly into the neura
 - All required derivatives are computed using automatic differentiation.
 
 No labeled simulation data is required; the model learns solely by minimizing violations of the governing physical constraints.
+
+## Results and Interpretation
+
+The trained PINN models learn smooth, continuous representations of the evolving matter distribution.
+Qualitative inspection of the results shows the emergence of non-uniform density structures over time,
+consistent with gravitational clustering behavior.
+
+Training loss curves indicate progressive enforcement of physical constraints during optimization.
+While the results are not benchmarked against high-resolution solvers, they demonstrate the feasibility of PINNs as surrogate models for simplified gravitational dynamics.
+
